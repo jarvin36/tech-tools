@@ -1,0 +1,31 @@
+.large-link {
+  max-width: 100%;
+  width: clamp(180px, 24vw, 280px);
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.img {
+  max-width: 220px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+h3 {
+  font-weight:550;
+}
+
+@media (min-width: 960px) {
+  .img {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .large-link {
+    width: 90%;
+  }
+}
